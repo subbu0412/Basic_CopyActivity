@@ -1,0 +1,20 @@
+{
+    "name": "ds_Basic_cp_src",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "subbu_ls",
+            "type": "LinkedServiceReference"
+        },
+        "folder": {
+            "name": "Basic_cp_act"
+        },
+        "annotations": [],
+        "type": "Binary",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileSystem": "raw"
+            }
+        }
+    }
+}
